@@ -1,5 +1,5 @@
 from datetime import datetime
-dt=datetime.now()
+dt=datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 class Journal_manager:
     def __init__(self):
