@@ -85,7 +85,9 @@ Thank you for using Personal Journal Manager. Goodbye!
 ## Requirements
 
 * Python 3.x
-* No external Python libraries are required.
+* Git
+* Github
+* VS code
 
 ## Project Structure
 
