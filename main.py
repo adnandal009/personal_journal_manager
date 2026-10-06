@@ -42,7 +42,7 @@ class Journal_manager:
                 entry=input("Enter a  keyword or date to search : ")
                 a=file.readlines()
                 for x in a:
-                    if entry in x :
+                    if entry.lower() in x.lower() :
                         print(f"[{dt}] \n {x}")
                         break
                 else:
